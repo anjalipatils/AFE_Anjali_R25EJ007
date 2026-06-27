@@ -1,17 +1,16 @@
-
 # Hugging Face Model Analysis
 
 ---
 
 # Model Name
 
-**Unlimited-OCR**
+**Qwythos-9B-Claude-Mythos-5-1M**
 
 ---
 
 # Organization
 
-**Baidu**
+**Empero AI**
 
 ---
 
@@ -23,63 +22,65 @@
 
 # Model Type
 
-Image-to-Text (Optical Character Recognition - OCR)
+Text Generation / Vision-Language Reasoning Model (Large Language Model)
 
 ---
 
 # Introduction
 
-Unlimited-OCR is an advanced Artificial Intelligence (AI) model developed by Baidu for Optical Character Recognition (OCR). The model is designed to accurately extract text from images, scanned documents, books, invoices, handwritten notes, and PDF files. It converts image-based text into editable digital text, making document processing faster and more efficient.
-
-The model is optimized for handling both short and long documents while maintaining high recognition accuracy. It is useful in education, business, research, and document management systems.
+Qwythos-9B-Claude-Mythos-5-1M is an advanced open-weight reasoning model developed by Empero AI. Built on the Qwen3.5-9B architecture, it is designed for complex reasoning, coding, long-context understanding, tool usage, and conversational AI. The model has been post-trained on over 500 million tokens of high-quality reasoning data, making it highly capable of solving technical and analytical tasks.
 
 ---
 
 # Purpose
 
-The primary purpose of Unlimited-OCR is to recognize text from images and convert it into machine-readable text. It reduces manual typing and improves productivity by automatically extracting information from documents.
+The primary purpose of Qwythos-9B-Claude-Mythos-5-1M is to provide accurate reasoning and intelligent text generation for advanced AI applications. It is designed to assist developers, researchers, and businesses with complex problem-solving and long-document processing.
 
 The model is capable of:
-- Reading printed text
-- Extracting text from scanned PDFs
-- Processing handwritten notes
-- Understanding complex document layouts
-- Digitizing paper documents
+
+* Natural language understanding
+* Intelligent text generation
+* Code generation and debugging
+* Long-document analysis
+* Tool and function calling
+* Multi-step reasoning
+* Conversational AI
+* Image and text understanding
 
 ---
 
 # Architecture
 
-Unlimited-OCR is based on a **Vision-Language Model (VLM)** architecture.
-
-The model combines computer vision techniques with natural language processing to understand images and generate text outputs.
+Qwythos-9B-Claude-Mythos-5-1M is based on the **Qwen3.5-9B Vision-Language Model (VLM)** architecture with additional reasoning-focused fine-tuning.
 
 ### Key Architecture Features
 
-- Vision-Language Model (VLM)
-- OCR-focused architecture
-- Optimized for long document understanding
-- Efficient attention mechanism
-- Supports large context windows
-- Fast inference with reduced memory usage
+* Vision-Language Model (VLM)
+* Approximately **9 Billion parameters**
+* Built on Qwen3.5-9B
+* Native function-calling support
+* 1 Million token context window
+* Long-context reasoning using YaRN RoPE scaling
+* Optimized for efficient inference
+* Advanced reasoning and tool-use capabilities
 
 ---
 
 # Dataset
 
-The complete training dataset has not been publicly disclosed by Baidu.
+The complete training dataset has not been publicly disclosed by Empero AI.
 
-However, the model has been trained using large-scale OCR and document understanding datasets consisting of:
+However, the model has been post-trained using:
 
-- Printed documents
-- Books
-- Newspapers
-- Scanned PDFs
-- Images containing text
-- Business documents
-- Educational materials
+* Over **500 million tokens** of reasoning data
+* Claude Mythos reasoning traces
+* Claude Fable reasoning traces
+* Programming and coding examples
+* Mathematical reasoning tasks
+* Scientific and technical documents
+* Conversational datasets
 
-These datasets help the model recognize different fonts, layouts, languages, and document structures.
+These datasets improve the model's reasoning, coding, and long-context understanding capabilities.
 
 ---
 
@@ -87,74 +88,77 @@ These datasets help the model recognize different fonts, layouts, languages, and
 
 Some important training information includes:
 
-- Approximately **3 Billion parameters**
-- Around **500 Million active parameters** during inference
-- Supports **32K token context window**
-- Optimized for efficient long-document processing
-- High OCR accuracy with lower memory usage
+* Approximately **9 Billion parameters**
+* Over **500 Million training tokens**
+* Supports **1,048,576-token (1M) context window**
+* Full-parameter fine-tuning
+* Native tool-use and function calling
+* Optimized for long-context reasoning
 
 ---
 
 # Features
 
-Unlimited-OCR provides several useful features:
+Qwythos-9B-Claude-Mythos-5-1M provides several useful features:
 
-- High accuracy OCR
-- Long document support
-- PDF text extraction
-- Handwritten text recognition
-- Complex document layout understanding
-- Fast processing speed
-- Easy integration with AI applications
-- Open-source availability
+* Advanced reasoning capabilities
+* Long-context processing
+* Code generation and debugging
+* Function calling support
+* Image and text understanding
+* Fast inference
+* Conversational AI
+* Open-weight availability
+* Efficient deployment on consumer hardware
 
 ---
 
 # Applications
 
-Unlimited-OCR can be used in many real-world applications such as:
+The model can be used in many real-world applications such as:
 
-- Document digitization
-- Invoice processing
-- Receipt scanning
-- Digital libraries
-- Educational institutions
-- Research organizations
-- Office automation
-- Banking documents
-- Government records
-- Business document management
+* AI chatbots
+* Software development assistance
+* Code generation
+* Research and education
+* Technical documentation
+* Business automation
+* Long-document summarization
+* Data analysis
+* Intelligent virtual assistants
+* AI agent development
 
 ---
 
 # Advantages
 
-Some major advantages of Unlimited-OCR include:
+Some major advantages of Qwythos-9B-Claude-Mythos-5-1M include:
 
-- Accurate text recognition
-- Supports multiple document formats
-- Efficient processing of long documents
-- Easy to integrate with Hugging Face
-- Reduces manual data entry
-- Saves time and improves productivity
-- Open-source implementation
+* Strong reasoning performance
+* Supports extremely long context windows
+* Native function calling
+* Efficient 9B parameter architecture
+* Open-weight availability
+* Suitable for coding and research
+* High-quality conversational responses
+* Easy integration with Hugging Face tools
 
 ---
 
 # Limitations
 
-Although Unlimited-OCR is highly capable, it also has some limitations:
+Although Qwythos-9B-Claude-Mythos-5-1M is highly capable, it also has some limitations:
 
-- Training dataset details are not publicly available.
-- Performance may vary depending on image quality.
-- Very low-resolution images can reduce OCR accuracy.
-- Some complex handwritten text may require additional processing.
+* Complete training dataset details are not publicly available.
+* Running the model efficiently may require powerful hardware.
+* Performance depends on available computing resources.
+* Large context processing can increase memory usage.
 
 ---
 
 # License
 
-The model is released under the **MIT License**, allowing users to use, modify, and distribute the software according to the license terms.
+The model is released under the **Apache 2.0 License**, allowing users to use, modify, and distribute the software according to the license terms.
 
 ---
 
@@ -165,22 +169,22 @@ The model can be accessed through the Hugging Face platform.
 Users can:
 
 1. Load the model using the Hugging Face Transformers library.
-2. Provide an image or scanned document as input.
+2. Provide text or image-text input.
 3. Run inference.
-4. Receive the extracted text as output.
+4. Receive intelligent text generation or reasoning outputs.
 
-This makes it suitable for AI applications involving document analysis and OCR.
+This makes the model suitable for AI assistants, coding tools, research, and long-document analysis.
 
 ---
 
 # Conclusion
 
-Unlimited-OCR is a powerful OCR model developed by Baidu for extracting text from images, scanned documents, and PDF files. Its advanced Vision-Language architecture enables accurate recognition of printed and handwritten text while supporting long documents efficiently.
+Qwythos-9B-Claude-Mythos-5-1M is a powerful open-weight reasoning model developed by Empero AI. Built on the Qwen3.5-9B architecture, it combines advanced reasoning, long-context understanding, coding assistance, and native tool usage into a compact 9-billion-parameter model.
 
-The model is highly useful in education, research, business automation, and digital document management. Its open-source availability on Hugging Face makes it an excellent resource for developers and researchers interested in AI-based Optical Character Recognition.
+Its support for a 1-million-token context window, function calling, and strong reasoning performance makes it an excellent choice for developers, researchers, and organizations building next-generation AI applications.
 
 ---
 
 # Source
 
-https://huggingface.co/baidu/Unlimited-OCR
+https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M
